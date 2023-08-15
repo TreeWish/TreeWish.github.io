@@ -36,5 +36,5 @@ features:
 #     desc: 自定义详细介绍
 #     link: https://你的自定义链接
 
-footer: 主题使用 [VuePress Theme Hope](https://theme-hope.vuejs.press/zh/)
+# footer: 主题使用 [VuePress Theme Hope](https://theme-hope.vuejs.press/zh/)
 ---

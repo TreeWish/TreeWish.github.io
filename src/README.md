@@ -38,7 +38,7 @@ features:
 #     desc: 自定义详细介绍
 #     link: https://你的自定义链接
 
-footer: 主题使用 <a href="https://theme-hope.vuejs.press/zh/">VuePress Theme Hope</a>
-copyright: MIT 协议 | 版权所有 © 2023 TreeWish
+# footer: true
+# copyright: MIT 协议 | 版权所有 © 2023 TreeWish
 
 ---
