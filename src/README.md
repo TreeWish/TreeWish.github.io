@@ -2,7 +2,7 @@
 home: true
 # layout: BlogHome
 icon: home
-title: 博客主页
+title: 个人小站
 heroImage: /images/avatar.jpg
 heroText: TreeWish
 tagline: 手握日月摘星辰，世间无我这般人
