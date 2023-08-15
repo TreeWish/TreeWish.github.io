@@ -33,7 +33,8 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
-  footer: "默认页脚",
+  footer: '主题使用 <a href="https://theme-hope.vuejs.press/zh/">VuePress Theme Hope</a>',
+  copyright: "MIT 协议 | 版权所有 © 2023 TreeWish",
 
   displayFooter: true,
   // 主题模式
