@@ -1,11 +1,17 @@
 import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
-  "/",
-  "/demo/",
   {
-    text: "最新文章",
-    link: "/latestarticle/",
+    text: "主页",
+    link: "/",
+  },
+  // {
+  //   text: "极简风格",
+  //   link: "/simple",
+  // },
+  {
+    text: "全部文章",
+    link: "/article/",
   },
 
   {
@@ -84,7 +90,7 @@ export default navbar([
       { text: "复盘", link: "/read/replay/" },
     ],
   },
-  { text: "关于我", link: "/about/" },
+  { text: "关于我", link: "/intro/" },
   // {
   //   text: "博文",
   //   icon: "pen-to-square",

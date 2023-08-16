@@ -1,21 +1,22 @@
 ---
 home: true
-layout: BlogHome
+# layout: BlogHome
 icon: home
-title: 博客主页
-heroImage: /assets/images/treewish.jpeg
+title: 个人小站
+heroImage: /assets/images/avatar.jpg
 heroText: TreeWish
 tagline: 手握日月摘星辰，世间无我这般人
+heroFullScreen: false
 actionText: 开始阅读 →
 actionLink: /latestarticle/
-heroFullScreen: true
 features:
   - title: 读书
-    details: 读万卷书，行万里路,多读一页书,就少一分无知,多一分智慧
+    details: 读万卷书，行万里路
   - title: 技术
     details: 用心记录技术,走心分享,始于前端,不止于前端,励志成为一名优秀的全栈工程师
   - title: 生活
     details: 诗意，追逐，奋斗，前行
+
 # projects:
 #   - icon: 技术
 #     name: 项目名称
@@ -37,5 +38,7 @@ features:
 #     desc: 自定义详细介绍
 #     link: https://你的自定义链接
 
-# footer: 主题使用 [VuePress Theme Hope](https://theme-hope.vuejs.press/zh/)
+# footer: true
+# copyright: MIT 协议 | 版权所有 © 2023 TreeWish
+
 ---

@@ -3,11 +3,12 @@ home: true
 layout: BlogHome
 icon: home
 title: 博客主页
-heroImage: /images/treewish.jpeg
+heroImage: /assets/images/treewish.jpeg
 heroText: TreeWish
 tagline: 手握日月摘星辰，世间无我这般人
 actionText: 开始阅读 →
 actionLink: /latestarticle/
+heroFullScreen: true
 features:
   - title: 读书
     details: 读万卷书，行万里路,多读一页书,就少一分无知,多一分智慧
