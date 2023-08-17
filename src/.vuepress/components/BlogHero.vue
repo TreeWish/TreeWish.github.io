@@ -2,7 +2,8 @@
 <script setup lang="ts">
 import BlogHero from "vuepress-theme-hope/blog/components/BlogHero.js"
 import BingHeroBackground from "vuepress-theme-hope/presets/BingHeroBackground.js"
-import HitokotoBlogHero from "vuepress-theme-hope/presets/HitokotoBlogHero.js"
+import HitokotoBlogHero from "./HitokotoBlogHero/index.js"
+// import "vuepress-theme-hope/presets/left-blog-info.scss"
 </script>
 
 <template>
