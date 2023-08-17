@@ -2,7 +2,7 @@ import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 import { getDirname, path } from "@vuepress/utils";
-
+ 
 const __dirname = getDirname(import.meta.url);
 export default hopeTheme({
   hostname: "https://treewish.github.io",
@@ -70,8 +70,20 @@ export default hopeTheme({
     editLink: "在 GitHub 上编辑此页",
   },
 
+  // 添加其他博客类型
+  blogLocales: {
+    slide: "幻灯片",
+  },
+
   plugins: {
-    blog: true,
+    blog: {
+      type: [
+        {
+          key: "slide",
+          filter: (page) => page.frontmatter.layout === "Slide",
+        },
+      ],
+    },
 
     // 开启后复制时自动生成一段版权信
     copyright: true,
@@ -79,7 +91,7 @@ export default hopeTheme({
     comment: {
       // You should generate and use your own comment service
       provider: "Waline",
-      serverURL: "https://waline-blog-rho-virid.vercel.app/",
+      serverURL: "https://waline-blog-78wa1xvod-treewish.vercel.app/",
     },
 
     // all features are enabled for demo, only preserve features you need here

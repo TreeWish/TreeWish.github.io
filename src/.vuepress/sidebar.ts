@@ -1,22 +1,14 @@
 import { sidebar } from "vuepress-theme-hope";
-
+// structure
 export default sidebar({
+  "/code/": "structure",
+
+  "/note/": "structure",
+
+  // fallback
   "/": [
-    "",
-    {
-      text: "如何使用",
-      icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
-      children: "structure",
-    },
-    {
-      text: "文章",
-      icon: "book",
-      prefix: "posts/",
-      children: "structure",
-    },
-    "intro",
-    "slides",
+    "" /* / */,
+    "contact" /* /contact.html */,
+    "about" /* /about.html */,
   ],
 });

@@ -8,6 +8,8 @@ sticky: true
 
 star: 100
 
+isOriginal: true
+pageview: true
 ---
 
 # JavaScript 基础
