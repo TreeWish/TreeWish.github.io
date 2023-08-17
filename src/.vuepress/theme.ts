@@ -42,7 +42,7 @@ export default hopeTheme({
   fullscreen: true,
 
   blog: {
-    avatar: '/assets/images/avatar.jpg',
+    avatar: '/assets/images/avatar2.png',
     name: 'TreeWish',
     description: "始于前端，不止于前端",
     intro: "/intro.html",
