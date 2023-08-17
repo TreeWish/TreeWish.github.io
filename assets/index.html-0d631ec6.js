@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as o,d as c,a as n}from"./app-2cf624b5.js";const a={},r=n("p",null,"想写出诗一样的代码。",-1);function s(_,l){return t(),o("div",null,[r,c(" more ")])}const m=e(a,[["render",s],["__file","index.html.vue"]]);export{m as default};
